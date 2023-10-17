@@ -1,0 +1,5 @@
+.root{
+-fx-background-image:url("../image/newSide.png");
+-fx-background-color:transparent;
+-fx-background-size:cover;
+}

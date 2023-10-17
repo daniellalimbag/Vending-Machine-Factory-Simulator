@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="540.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TransactionController">
+   <children>
+      <AnchorPane prefHeight="540.0" prefWidth="300.0">
+         <children>
+            <Label fx:id="date" layoutX="79.0" layoutY="503.0">
+               <font>
+                  <Font name="Felix Titling" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="503.0" text="Date:">
+               <font>
+                  <Font name="Felix Titling" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="changeVal" layoutX="103.0" layoutY="279.0">
+               <font>
+                  <Font name="Felix Titling" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="279.0" text="Change:">
+               <font>
+                  <Font name="Felix Titling" size="18.0" />
+               </font>
+            </Label>
+            <TableView fx:id="changeView" layoutY="302.0" prefHeight="184.0" prefWidth="300.0">
+               <columns>
+                  <TableColumn fx:id="pesosChange" prefWidth="144.0" text="PHP" />
+                  <TableColumn fx:id="quantityChange" prefWidth="155.0" text="Quantity" />
+               </columns>
+            </TableView>
+            <Label fx:id="insertedVal" layoutX="187.0" layoutY="65.0">
+               <font>
+                  <Font name="Felix Titling" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="65.0" text="Money Inserted:">
+               <font>
+                  <Font name="Felix Titling" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="itemName" layoutX="66.0" layoutY="31.0">
+               <font>
+                  <Font name="Felix Titling" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="31.0" text="Item:">
+               <font>
+                  <Font name="Felix Titling" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="transactionNum" layoutX="260.0" layoutY="16.0" text="#0">
+               <font>
+                  <Font name="Felix Titling" size="24.0" />
+               </font>
+            </Label>
+            <TableView fx:id="moneyInsertedView" layoutY="88.0" prefHeight="184.0" prefWidth="300.0">
+               <columns>
+                  <TableColumn fx:id="pesosInserted" prefWidth="144.0" text="PHP" />
+                  <TableColumn fx:id="quantityInserted" prefWidth="155.0" text="Quantity" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

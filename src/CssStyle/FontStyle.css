@@ -1,0 +1,9 @@
+@font-face{
+    font-family:'Raiderz';
+    src: url('Raiderz.ttf');
+}
+
+.fonts{
+    -fx-font-family:"Raiderz.ttf";
+}
+

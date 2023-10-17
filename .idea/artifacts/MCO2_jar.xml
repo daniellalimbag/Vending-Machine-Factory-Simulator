@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MCO2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MCO2_jar</output-path>
+    <root id="archive" name="MCO2.jar">
+      <element id="module-output" name="MCO2" />
+      <element id="extracted-dir" path="$JaxaFX17$/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JaxaFX17$/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JaxaFX17$/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JaxaFX17$/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JaxaFX17$/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JaxaFX17$/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JaxaFX17$/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$JaxaFX17$/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="471.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ReplenishMoneyController">
+   <children>
+      <VBox layoutX="16.0" layoutY="76.0" prefHeight="320.0" prefWidth="384.0">
+         <children>
+            <HBox prefHeight="40.0" prefWidth="350.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="196.0" text="₱1">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="PHP1" alignment="CENTER" prefHeight="40.0" prefWidth="172.0" promptText="Quantity">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="350.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="196.0" text="₱5">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="PHP5" alignment="CENTER" prefHeight="40.0" prefWidth="172.0" promptText="Quantity">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="350.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="196.0" text="₱10">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="PHP10" alignment="CENTER" prefHeight="40.0" prefWidth="172.0" promptText="Quantity">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="350.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="196.0" text="₱20">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="PHP20" alignment="CENTER" prefHeight="40.0" prefWidth="172.0" promptText="Quantity">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="350.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="196.0" text="₱50">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="PHP50" alignment="CENTER" prefHeight="40.0" prefWidth="172.0" promptText="Quantity">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="350.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="196.0" text="₱100">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="PHP100" alignment="CENTER" prefHeight="40.0" prefWidth="172.0" promptText="Quantity">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="350.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="196.0" text="₱200">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="PHP200" alignment="CENTER" prefHeight="40.0" prefWidth="172.0" promptText="Quantity">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="350.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="196.0" text="₱500">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="PHP500" alignment="CENTER" prefHeight="40.0" prefWidth="172.0" promptText="Quantity">
+                     <font>
+                        <Font name="Felix Titling" size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label layoutX="90.0" layoutY="24.0" text="Replenish Money">
+         <font>
+            <Font name="Felix Titling" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="141.0" layoutY="413.0" mnemonicParsing="false" onAction="#handleSubmission" text="Replenish">
+         <font>
+            <Font name="Felix Titling" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
